@@ -1,0 +1,3 @@
+﻿  Validator.cpp
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(122): warning C4715: 'Validator::getDelegators': not all control paths return a value
+  Validator.vcxproj -> C:\Users\Admin\Downloads\pwrC\x64\Debug\Validator.lib

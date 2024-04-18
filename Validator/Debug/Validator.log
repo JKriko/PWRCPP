@@ -1,0 +1,69 @@
+﻿  Validator.cpp
+C:\Users\Admin\Downloads\pwrC\Utils\Response.h(4,1): warning C4005: 'MYLIBRARY_API': macro redefinition
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(4): message : see previous definition of 'MYLIBRARY_API'
+C:\Users\Admin\Downloads\pwrC\Utils\Response.h(15,17): warning C4251: 'Response::txnHash': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Response'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Utils\Response.h(16,17): warning C4251: 'Response::error': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Response'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(17,16): error C2653: 'boost': is not a class or namespace name
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(17,37): error C2878: 'multiprecision': a namespace or class of this name does not exist
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(18,20): error C2653: 'mp': is not a class or namespace name
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(18,24): error C2061: syntax error: identifier 'number'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(18,31): error C2653: 'mp': is not a class or namespace name
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(69,16): error C2065: 'Validator': undeclared identifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(69,9): error C2923: 'std::vector': 'Validator' is not a valid template type argument for parameter '_Ty'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(69): message : see declaration of 'Validator'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(69,9): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(71,16): error C2065: 'Validator': undeclared identifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(71,9): error C2923: 'std::vector': 'Validator' is not a valid template type argument for parameter '_Ty'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(71): message : see declaration of 'Validator'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(71,9): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(73,16): error C2065: 'Validator': undeclared identifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(73,9): error C2923: 'std::vector': 'Validator' is not a valid template type argument for parameter '_Ty'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(73): message : see declaration of 'Validator'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(73,9): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(75,16): error C2065: 'Validator': undeclared identifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(75,9): error C2923: 'std::vector': 'Validator' is not a valid template type argument for parameter '_Ty'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(75): message : see declaration of 'Validator'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(75,9): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\vector(430): message : see declaration of 'std::vector'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(77,19): error C3646: 'getValidator': unknown override specifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(77,32): error C2059: syntax error: 'const'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(77,63): error C2238: unexpected token(s) preceding ';'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(81,20): error C3646: 'getShareValue': unknown override specifier
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(81,34): error C2059: syntax error: 'const'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.h(81,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\Admin\Downloads\pwrC\Delegator\Delegator.h(16,12): warning C4251: 'Delegator::address': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Delegator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Delegator\Delegator.h(17,12): warning C4251: 'Delegator::validatorAddress': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Delegator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(22,18): warning C4251: 'Validator::address': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Validator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(23,18): warning C4251: 'Validator::ip': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Validator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(28,18): warning C4251: 'Validator::status': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Validator'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(14,2): warning C4273: 'Validator::Validator': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(31,5): message : see previous definition of '{ctor}'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(22,45): warning C4273: 'Validator::getAddress': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(35,19): message : see previous definition of 'getAddress'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(26,40): warning C4273: 'Validator::getIp': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(36,19): message : see previous definition of 'getIp'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(30,45): warning C4273: 'Validator::getIsBadActor': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(37,16): message : see previous definition of 'getIsBadActor'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(34,46): warning C4273: 'Validator::getVotingPower': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(38,16): message : see previous definition of 'getVotingPower'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(38,41): warning C4273: 'Validator::getShares': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(39,16): message : see previous definition of 'getShares'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(42,49): warning C4273: 'Validator::getDelegatorsCount': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(40,15): message : see previous definition of 'getDelegatorsCount'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(46,44): warning C4273: 'Validator::getStatus': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(41,19): message : see previous definition of 'getStatus'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(50,55): warning C4273: 'Validator::getDelegators': inconsistent dll linkage
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(33,23): message : see previous definition of 'getDelegators'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(70,60): error C2440: 'initializing': cannot convert from 'boost::multiprecision::detail::expression<boost::multiprecision::detail::divides,boost::multiprecision::detail::expression<boost::multiprecision::detail::multiply_immediates,boost::multiprecision::number<boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>,boost::multiprecision::et_on>,boost::multiprecision::number<boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>,boost::multiprecision::et_on>,void,void>,boost::multiprecision::number<boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>,boost::multiprecision::et_on>,void,void>' to 'long'
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(70,24): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.cpp(72,63): error C2065: 'delegatedPWR': undeclared identifier
