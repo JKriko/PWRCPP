@@ -1,0 +1,33 @@
+﻿  PWRJ.cpp
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(430,62): warning C4244: '=': conversion from 'ValueType' to 'long', possible loss of data
+          with
+          [
+              ValueType=__int64
+          ]
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(437,62): warning C4244: '=': conversion from 'ValueType' to 'long', possible loss of data
+          with
+          [
+              ValueType=__int64
+          ]
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(481,62): warning C4244: '=': conversion from 'ValueType' to 'long', possible loss of data
+          with
+          [
+              ValueType=__int64
+          ]
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(488,62): warning C4244: '=': conversion from 'ValueType' to 'long', possible loss of data
+          with
+          [
+              ValueType=__int64
+          ]
+  Signature.cpp
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(102,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(159,89): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(146,21): error C4996: 'EC_KEY_new': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(150,10): error C4996: 'EC_KEY_set_group': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(151,9): error C4996: 'EC_KEY_free': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(154,10): error C4996: 'EC_KEY_set_private_key': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(155,9): error C4996: 'EC_KEY_free': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(159,22): error C4996: 'ECDSA_do_sign': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(161,9): error C4996: 'EC_KEY_free': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(183,5): error C4996: 'EC_KEY_free': Since OpenSSL 3.0
+C:\Users\Admin\Downloads\pwrC\Protocol\Signature.cpp(236,8): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data

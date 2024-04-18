@@ -1,0 +1,55 @@
+﻿  PWRJ.cpp
+C:\Users\Admin\Downloads\pwrC\Validator\Validator.h(33,37): error C2061: syntax error: identifier 'PWRJ'
+C:\Users\Admin\Downloads\pwrC\Utils\Response.h(15,17): warning C4251: 'Response::txnHash': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Response'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Utils\Response.h(16,17): warning C4251: 'Response::error': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Response'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(62,18): error C2352: 'PWRJ::httpGet': illegal call of non-static member function
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(25): message : see declaration of 'PWRJ::httpGet'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(139,17): error C2352: 'PWRJ::httpGet': illegal call of non-static member function
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(25): message : see declaration of 'PWRJ::httpGet'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(150,17): error C2352: 'PWRJ::httpGet': illegal call of non-static member function
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(25): message : see declaration of 'PWRJ::httpGet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\type_traits(517,36): error C2139: 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_abstract'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\fwd.hpp(190): message : see declaration of 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\detail\number_base.hpp(1522): message : see reference to class template instantiation 'std::is_abstract<Num>' being compiled
+          with
+          [
+              Num=boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>
+          ]
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(75): message : see reference to class template instantiation 'boost::multiprecision::number_category<Backend>' being compiled
+          with
+          [
+              Backend=boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>
+          ]
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(559): message : see reference to class template instantiation 'boost::multiprecision::number<boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>,boost::multiprecision::et_on>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\type_traits(593,41): error C2139: 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_constructible'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\fwd.hpp(190): message : see declaration of 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(115): message : see reference to class template instantiation 'std::is_constructible<Backend,const Backend &,unsigned int>' being compiled
+          with
+          [
+              Backend=boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>
+          ]
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(2218,63): error C2079: 'boost::multiprecision::number<boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>,boost::multiprecision::et_on>::m_backend' uses undefined class 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\type_traits(325,39): error C2139: 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_convertible_to'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\fwd.hpp(190): message : see declaration of 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>'
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(563): message : see reference to class template instantiation 'std::is_convertible<boost::multiprecision::detail::canonical_imp<Val,Backend,std::integral_constant<int,3>>::type,Backend>' being compiled
+          with
+          [
+              Val=std::string,
+              Backend=boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>
+          ]
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(93): message : while compiling class template member function 'boost::multiprecision::number<boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>,boost::multiprecision::et_on>::number(const V &,std::enable_if<std::is_enum<V>::value&&std::is_convertible<V,int>::value&&!std::is_convertible<detail::canonical<V,Backend>::type,Backend>::value&&!boost::multiprecision::detail::is_restricted_conversion<detail::canonical<V,Backend>::type,Backend>::value,void>::type *)'
+          with
+          [
+              Backend=boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>
+          ]
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(119,4): error C2582: 'operator =' function is unavailable in 'boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>'
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(119): message : while compiling class template member function 'boost::multiprecision::number<boost::multiprecision::backends::cpp_dec_float<50,int32_t,void>,boost::multiprecision::et_on>::number<std::string>(const V &,void *) noexcept(<expr>)'
+          with
+          [
+              V=std::string
+          ]
+C:\Users\Admin\Downloads\pwrC\Protocol\PWRJ.cpp(645,1): error C2760: syntax error: unexpected token '}', expected ';'
+  Signature.cpp
+  Generating Code...
