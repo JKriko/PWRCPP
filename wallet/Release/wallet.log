@@ -1,0 +1,21 @@
+﻿  PWRWallet.cpp
+C:\Users\Admin\Downloads\pwrC\openssl\Lib\x32\Release\include\openssl\core_dispatch.h(65,1): warning C4191: 'type cast': unsafe conversion from 'void (__cdecl *const )(void)' to 'OSSL_FUNC_core_gettable_params_fn (__cdecl *)'
+          Calling this function through the result pointer may cause your program to fail
+C:\Users\Admin\Downloads\pwrC\wallet\PWRWallet.cpp(107,41): warning C4244: 'return': conversion from 'int64_t' to 'long', possible loss of data
+C:\Users\Admin\Downloads\pwrC\wallet\PWRWallet.cpp(1200,28): warning C4101: 'e': unreferenced local variable
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\number.hpp(132,1): error C2664: 'boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>::cpp_int_backend(boost::multiprecision::backends::cpp_int_base<0,4294967295,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,Allocator,false>::scoped_shared_storage &,size_t) noexcept': cannot convert argument 1 from 'const char *' to 'boost::multiprecision::backends::cpp_int_base<0,4294967295,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,Allocator,false>::scoped_shared_storage &'
+          with
+          [
+              Allocator=std::allocator<boost::multiprecision::limb_type>
+          ]
+C:\Users\Admin\Downloads\pwrC\boost_1_84_0\boost\multiprecision\cpp_int.hpp(1380,4): message : see declaration of 'boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>::cpp_int_backend'
+C:\Users\Admin\Downloads\pwrC\wallet\PWRWallet.cpp(51): message : see reference to function template instantiation 'boost::multiprecision::number<boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>,boost::multiprecision::et_on>::number<std::string>(const V &,unsigned int,void *)' being compiled
+          with
+          [
+              V=std::string
+          ]
+C:\Users\Admin\Downloads\pwrC\wallet\PWRWallet.cpp(51): message : see reference to function template instantiation 'boost::multiprecision::number<boost::multiprecision::backends::cpp_int_backend<0,0,boost::multiprecision::signed_magnitude,boost::multiprecision::unchecked,std::allocator<boost::multiprecision::limb_type>>,boost::multiprecision::et_on>::number<std::string>(const V &,unsigned int,void *)' being compiled
+          with
+          [
+              V=std::string
+          ]
